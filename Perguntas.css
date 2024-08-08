@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    body {
+    font-size: 100%;
+    background-image: url(Floresta.jpg);
+    }
+
+    .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    }
+
+    .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    }
+
+    .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #1c3615;
+    font-weight: 400;
+    font-size: 18px
+    }
+
+    .cabecalho-menu-login{
+    padding: 8px;
+    background-color: #1d5c0e;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    color: #3da728;
+    font-weight: 400;
+    font-size: 18px
+    }
+
+    .cabecalho-menu-login:hover{
+    background-color: #1c3615;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    }  
+    .conteudo-principal{
+        width: 98vw;
+        height: 70vh; 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .conteudo-principal-escrito{
+        width: 37vw;
+        height: 65vh; 
+    }
+    .conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 40px;
+    color: #46b12b;
+    padding: 8px; background-color: #162711b6; width: 540px;
+    border-radius: 80px 80px;
+     }
+     .conteudo-secundario-paragrafo {
+     font-family: 'Sarala', sans-serif;
+     font-weight: 300;
+     font-size: 18px; 
+     color: #3da31b;
+     padding: 24px; background-color: #162711af; width: 500px;
+     border-radius: 80px 80px;
+    }
+    .rodape {
+        margin-top: 30px;
+        padding: 32px;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .rodape-imagem {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    }
+

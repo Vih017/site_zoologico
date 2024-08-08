@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastramento de Clientes</title>
+    <link rel="stylesheet" href="Cadastro.css">
+    <script src="https://kit.fontawesome.com/5bdf3179d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="Ave.png" width= "100px">
+        <nav class="cabecalho-menu">
+            <a class= "cabecalho-menu-login" href="Index.html">Home</a>
+            <a class= "cabecalho-menu-login" href="Zoologico.html">Zoologico</a>
+            <a class= "cabecalho-menu-login" href="Vegetação.html">Vegetação</a>
+            <a class= "cabecalho-menu-login" href="ComoChegar.html">Como Chegar</a>
+            <a class= "cabecalho-menu-login" href="Perguntas.html">Perguntas Frequentes</a>
+            <a class= "cabecalho-menu-login"  href="Login.html">Login</a>
+          </nav>
+      </header>
+  <section class="container">
+    <div id="form">
+        <form action="">
+            <h2 class="title">Cadastro de Clientes</h2>
+            <label for="usermane">Nome</label>
+            <div class="input">
+                <i class="fa-solid fa-user-astronaut"></i>
+                <input id="username" name="username" placeholder="Username" type="text">
+            </div>    
+            <label for="senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input id="senha" name="senha" placeholder="Password" type="password">
+            </div>
+            <label for="email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input id="email" name="email" placeholder="Email" type="text">
+            </div>
+
+            <label for="contato">Contato</label>
+            <div class="input">
+                <i class="fa-solid fa-phone"></i>
+                <input id="contato" name="contato" placeholder="Contato" type="tell">
+            </div>
+            <label for="data">Data de Nascimento</label>
+            <div class="input">
+                <i class="fa-solid fa-calendar"></i>
+                <input id="data" name="data" placeholder="Data de Nascimento" type="date">
+            </div>
+            <label for="estados">Estados(UF)</label>
+            <div>
+                 <select class="input" name="estados-brasil">
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                </select>
+            </div>
+            <label for="endereco">Endereço</label>
+            <div class="input">
+                <i class="fa-solid fa-globe"></i>
+                <input id="endereco" name="endereco" placeholder="Endereço">
+            </div>
+            <div>
+                <input type="checkbox" id="scales" name="scales"
+                       checked>
+                <label for="scales">Receber informações de promoção e lançamentos</label>
+            </div>
+            <div id="btn">
+                <button type="submit">Cadastrar</button>
+                <button type="clear">Limpar</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <img class="img" src="Servo.png" width="300px" height="300px">
+    </div>
+    <div>
+        <img class="imgx" src="Cobra.png" width="300px" height="300px">
+    </div>
+  </section>
+</body>
+</html>
